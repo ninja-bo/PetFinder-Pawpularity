@@ -61,7 +61,7 @@ Blur: [0 1]
 
 ## 4. Results and Analysis
 ### 1. Hyperparameter Tuning
-![alt text](image-5.png)
+![alt text](./image/image-5.png)
 Best CNN trial:
   Value: 21.669536590576172
   Params:
@@ -69,7 +69,7 @@ Best CNN trial:
     batch_size: 32
     num_epochs: 8
     dropout_rate: 0.17956545378570424
-![alt text](image-6.png)
+![alt text](./image/image-6.png)
 Best ResNet trial:
   Value: 20.27841567993164
   Params:
@@ -77,7 +77,7 @@ Best ResNet trial:
     batch_size: 32
     num_epochs: 17
     dropout_rate: 0.1917737187153449
-![alt text](image-7.png)
+![alt text](./image/image-7.png)
 CNN - Best RMSE: 21.6695, Trial: 4
 ResNet - Best RMSE: 20.2784, Trial: 5
 CNN - Mean RMSE: 27.1082, Std Dev: 7.2910
